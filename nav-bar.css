@@ -1,0 +1,27 @@
+#nav-bar {
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(106, 32, 32);
+    display: flex; /* Row / column elements */
+    flex-direction: row;
+    line-height: 10vh; /* vertical centering text */
+}
+
+/* child element selector > */
+#nav-bar > a {
+    color: #fefefe;
+    margin: 0px 17px 0px 0px;
+    text-decoration: none;
+    transition: 0.2s ease color;  /* soft color change*/
+    font-weight: bold;
+}
+
+#nav-bar > a:hover {
+    color: rgb(139, 93, 223);
+}
+
+#nav-bar-logo {
+    height: 5vh;
+    margin-right: 10px;
+    padding: 2.5vh 0 2.5vh 0; /* vertical center non-text */
+}
