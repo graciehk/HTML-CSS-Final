@@ -11,12 +11,21 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&display=swap" rel="stylesheet">
+<style>
+    #videos-row {
+        display: flex;
+        flex-direction:row;
+        height: 20vh;
+        justify-content: space-between;
+        padding: 50px;
+    }
+</style>
 </head>
 
 <body>
-    <video autoplay muted loop id="myVideo" width="1920" height="1080">
+    <!-- <video autoplay muted loop id="myVideo" width="1920" height="1080">
         <source src="RainyRoad.mp4" type="video/mp4">
-    </video>
+    </video> -->
     <div class="content">
         <div id="nav-bar">
             <a href="/">
@@ -29,7 +38,14 @@
             <a href="photographs.html">Photographs</a>
         </div>
         <div id="page">
-
+            <div id="videos-row">
+                <iframe class="video" src="https://www.youtube.com/watch?v=0RXdd0pCJ9Q&list=RD0RXdd0pCJ9Q&start_radio=1">
+                </iframe>
+                <iframe class="video" src="https://www.youtube.com/watch?v=0RXdd0pCJ9Q&list=RD0RXdd0pCJ9Q&start_radio=1">
+                </iframe>
+                <iframe class="video" src="https://www.youtube.com/watch?v=0RXdd0pCJ9Q&list=RD0RXdd0pCJ9Q&start_radio=1">
+                </iframe>
+            </div>
         </div>
     </div>
 </body>
