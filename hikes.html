@@ -24,12 +24,15 @@
             padding: 5px 0 5px 5px;
         }
     </style>
+    <script>
+
+    </script>
 </head>
 
 <body>
-    <video autoplay muted loop id="myVideo" width="1920" height="1080">
+    <!-- <video autoplay muted loop id="myVideo" width="1920" height="1080">
         <source src="RainyRoad.mp4" type="video/mp4">
-    </video>
+    </video> -->
     <div class="content">
         <div id="nav-bar">
             <a href="/">
@@ -78,6 +81,21 @@
             </div>
         </div>
     </div>
+    <!-- jquery.min.js should be loaded before jquery.tablesorter.min.js because tablesorter requires basice jquery -->
+  <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/JavaScript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script>
+  <!-- BEG JavaScript -->
+  <script>
+    $(document).ready(function () {
+      $("table#your-table-items").tablesorter({
+        sortList: [[1, 0]],
+        CssAsc: "tablesorter-headerAsc",
+        CssDesc: "tablesorter-headerDesc"
+      });
+    });
+  </script>
+  <!-- END JavaScript -->
 </body>
 
 </html>

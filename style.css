@@ -16,7 +16,7 @@
  .content {
      position: fixed;
      bottom: 0;
-     background: #fefefe;
+     background: transparent;
      color: #101010;
      height: 100%;
      width: 100%;
@@ -26,8 +26,7 @@
  #page {
      height: 100%;
      width: 100vw;
-
- }
+}
 
  body {
      margin: 0px;
