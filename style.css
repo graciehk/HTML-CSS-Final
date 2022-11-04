@@ -21,6 +21,7 @@
      height: 100%;
      width: 100%;
      padding: 0px;
+     overflow-y: scroll;
  }
 
  #page {
@@ -31,4 +32,15 @@
  body {
      margin: 0px;
      font-family: 'Economica', sans-serif; /* !important to make scrollable text this font*/
+ }
+
+ #footer {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefefe;
+ }
+ .footer-link {
+    margin-left: 10px;
  }
