@@ -13,6 +13,20 @@
     #nav-bar-logo {
       padding: 0;
     }
+    .carousel-area {
+      padding: 0 50px;
+      background-color: transparent;
+    }
+    #myCarousel {
+      height: 75vh;
+      max-width: 1000px;
+    }
+    .carousel-inner > .item {
+      height: 75vh;
+    }
+    .item > img {
+      max-width: 1000px !important;
+    }
   </style>
 </head>
 
@@ -39,47 +53,51 @@
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
           </ol>
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img src="./BigSur1.jpg" alt="Mountains" style="width:100%;" />
+              <img src="./BigSur1.jpg" alt="Mountains" />
+              <div class="carousel-caption">
+                <h3>McWay Falls</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="./PartingtonCove2020.jpg" alt="Coast"  />
               <div class="carousel-caption">
                 <h3>Big Sur</h3>
               </div>
             </div>
 
             <div class="item">
-              <img src="./PartingtonCove2020.jpg" alt="Coast" style="width:100%;" />
-              <div class="carousel-caption">
-                <h3>Big Sur</h3>
-              </div>
-            </div>
-
-            <div class="item">
-              <img src="./BixbyBridge2019.jpg" alt="Coast" style="width:100%;" />
+              <img src="./BixbyBridge2019.jpg" alt="Coast"  />
               <div class="carousel-caption">
                 <h3>Bixby Bridge</h3>
               </div>
             </div>
 
             <div class="item">
-              <img src="./PointLobos.jpg" alt="Coast" style="width:100%;" />
+              <img src="./PointLobos.jpg" alt="Coast"  />
               <div class="carousel-caption">
                 <h3>Point Lobos</h3>
               </div>
             </div>
 
             <div class="item">
-              <img src="./Limekiln.JPG" alt="Coast" style="width:100%;" />
+              <img src="./Limekiln.JPG" alt="Coast"  />
               <div class="carousel-caption">
                 <h3>Limekiln State Park</h3>
               </div>
             </div>
 
             <div class="item">
-              <img src="./SeaRanch(ACR).jpg" alt="Coast" style="width:100%;" />
+              <img src="./SeaRanch(ACR).jpg" alt="Coast"  />
               <div class="carousel-caption">
                 <h3>Sea Ranch</h3>
               </div>
