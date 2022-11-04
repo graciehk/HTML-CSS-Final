@@ -11,6 +11,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&display=swap" rel="stylesheet">
+<script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".accordion-button").on("click touchstart",function(){
+            $(this).parent().find(".accordion-panel").toggle();
+        })
+    })
+</script>
 <style>
     #videos-row, #accordion-row {
         display: flex;
@@ -32,7 +40,10 @@
         display: none;
     }
     .accordion-button {
-        tetx-align: right;
+        text-align: left;
+    }
+    #page {
+        overflow-y: scroll;
     }
 </style>
 </head>
