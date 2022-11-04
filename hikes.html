@@ -11,6 +11,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&display=swap" rel="stylesheet">
+<script type="text/JavaScript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script>
+    <script>
+        $(document).ready(function () {
+          $("table#hikes-table").tablesorter({
+            sortList: [[2, 0]],
+            //CssAsc: "tablesorter-headerAsc",
+            //CssDesc: "tablesorter-headerDesc"
+          });
+        });
+      </script>
     <style>
         #hikes-table {
             width: 100%;
