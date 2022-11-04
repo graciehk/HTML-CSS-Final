@@ -5,12 +5,30 @@
     <title>Rainy Mountain Road</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav-bar.css">
+    <style>
+        .contact-row {
+            height: 35vh;
+            width: 100%;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .contact-item {
+            width: 15vw;
+        }
+        .contact-item > img {
+            max-width: 15vw;
+        }
+        #contact-wrapper {
+            padding: 50px;
+        }
+    </style>
 </head>
 
 <body>
-    <video autoplay muted loop id="myVideo" width="1920" height="1080">
+   <!--  <video autoplay muted loop id="myVideo" width="1920" height="1080">
         <source src="RainyRoad.mp4" type="video/mp4">
-    </video>
+    </video> -->
     <div class="content">
         <div id="nav-bar">
             <a href="/">
@@ -23,6 +41,38 @@
             <a href="artists.html">Artists</a>
         </div>
         <div id="page">
+            <div id="contact-wrapper">
+            <div class="contact-row"> 
+                <div class="contact-item">
+                    <img src="Contact3.jpg" alt="Gracie">
+                </div>
+                <div class="contact-item">
+                    <ul>
+                        <li>4444</li>
+                        <li>7777</li>
+                        <li>2222</li>
+                    </ul>
+                </div>
+                <div class="contact-item">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                </div>
+            </div>
+            <div class="contact-row"> 
+                <div class="contact-item">
+                    <img src="Contact2.jpg" alt="AG">
+                </div>
+                <div class="contact-item">
+                    <ul>
+                        <li>4444</li>
+                        <li>7777</li>
+                        <li>2222</li>
+                    </ul>
+                </div>
+                <div class="contact-item">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                </div>
+            </div>
+            </div>
 
         </div>
     </div>
