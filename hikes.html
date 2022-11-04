@@ -5,6 +5,25 @@
     <title>Rainy Mountain Road</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav-bar.css">
+    <style>
+        #hikes-table {
+            width: 100%;
+            text-align: left;
+        }
+        #table-wrapper {
+            width: 60vw; 
+        }
+        #page {
+            padding: 50px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px 0 5px 5px;
+        }
+    </style>
 </head>
 
 <body>
@@ -23,7 +42,40 @@
             <a href="artists.html">Artists</a>
         </div>
         <div id="page">
-
+            <div id="table-wrapper">
+                <table id="hikes-table">
+                    <tr>
+                        <th>Name</th>
+                        <th>Location</th>
+                        <th>Distance</th>
+                        <th>Estimated Time</th>
+                    </tr>
+                    <tr>
+                        <td>Ridge Loop</td>
+                        <td>Santa Rosa CA</td>
+                        <td>2.4 Mi.</td>
+                        <td>1.6 Hrs.</td>
+                    </tr>
+                    <tr>
+                        <td>Lake Loop</td>
+                        <td>Santa Rosa CA</td>
+                        <td>1.2 Mi.</td>
+                        <td>55 Min</td>
+                    </tr>
+                    <tr>
+                        <td>Coastal Trail</td>
+                        <td>Bodega Bay CA</td>
+                        <td>4.5 Mi.</td>
+                        <td>3.2 Hrs.</td>
+                    </tr>
+                    <tr>
+                        <td>Redwood Grove Trail</td>
+                        <td>Jenner CA</td>
+                        <td>3 Mi.</td>
+                        <td>2.4 Hrs.</td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
 </body>
