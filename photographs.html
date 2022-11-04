@@ -6,17 +6,46 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav-bar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Economica:wght@400;700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&display=swap" rel="stylesheet">
+    <style>
+        .photographs-row {
+            height: 30vh;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-bottom: 15px;
+        }
+
+        .photographs-item {
+            width: 21vw;
+            text-align: center;
+        }
+
+        .photographs-item>img {
+            max-width: 21vw;
+            max-height: 35vh;
+
+        }
+
+        #photographs-wrapper {
+            padding: 50px;
+        }
+
+        body {
+            overflow-y: scroll !important;
+        }
+    </style>
 </head>
 
 <body>
-    <video autoplay muted loop id="myVideo" width="1920" height="1080">
+    <!-- <video autoplay muted loop id="myVideo" width="1920" height="1080">
         <source src="RainyRoad.mp4" type="video/mp4">
-    </video> -->
+    </video> --> -->
     <div class="content">
         <div id="nav-bar">
             <a href="/">
@@ -30,34 +59,76 @@
         </div>
         <div id="page">
             <div id="photographs-wrapper">
-            <div class="photographs-row"> 
-                <div class="photographs-item">
-                    <img src="CampSaturna.JPG" alt="Silver Lake">
+                <div class="photographs-row">
+                    <div class="photographs-item">
+                        <img src="CampSaturna.JPG" alt="Silver Lake">
+                    </div>
+                    <div class="photographs-item">
+                        <img src="BellinghamWA.JPG" alt="Maple Point">
+                    </div>
+                    <div class="photographs-item">
+                        <img src="BigSur2018.JPG" alt="Big Sur">
+                    </div>
+                    <div class="photographs-item">
+                        <img src="Stinson2022.jpg" alt="Stinson Beach">
+                    </div>
                 </div>
-                <div class="photographs-item">
-                    <img src="BellinghamWA.JPG" alt="Maple Point">     
+                <div class="photographs-row">
+                    <div class="photographs-item">
+                        <img src="CypressGrove.JPG" alt="Cypress Grove">
+                    </div>
+                    <div class="photographs-item">
+                        <img src="GlenEllen.JPG" alt="Glen Ellen">
+                    </div>
+                    <div class="photographs-item">
+                        <img src="HowarthPark.JPG" alt="Howarth Park">
+                    </div>
+                    <div class="photographs-item">
+                        <img src="GuernevilleRR.JPG" alt="Russian River">
+                    </div>
                 </div>
-                <div class="photographs-item">
-                   <img src="Seattle.JPG" alt="Warwick">
+                <div class="photographs-row">
+                    <div class="photographs-item">
+                        <img src="Monterey.JPG" alt="Monterey Canary Row">
+                    </div>
+                    <div class="photographs-item">
+                        <img src="PigeonPointLH.JPG" alt="Pigeon Point Light House">
+                    </div>
+                    <div class="photographs-item">
+                        <img src="Bay.JPG" alt="Mount Tamalpais, San Francisco Bay">
+                    </div>
+                    <div class="photographs-item">
+                        <img src="DillonBeach.JPG" alt="Dillon Beach Sunrise">
+                    </div>
                 </div>
-                <div class="photographs-item">
-                    <img src="Stinson2022.jpg" alt="Stinson Beach">
+                <div class="photographs-row">
+                    <div class="photographs-item">
+                        <img src="Cornerstone.JPG" alt="Cornerstone Berkeley">
+                    </div>
+                    <div class="photographs-item">
+                        <img src="Seattle.JPG" alt="Warwick, Seattle">
+                    </div>
+                    <div class="photographs-item">
+                        <img src="Lighttrails.JPG" alt="Light trails on the San Francisco Bay">
+                    </div>
+                    <div class="photographs-item">
+                        <img src="Manhattan.jpg" alt="SoHo Buildings, Manhattan">
+                    </div>
                 </div>
-            </div>
-            <div class="photographs-row"> 
-                <div class="photographs-item">
-                    <img src="CypressGrove.JPG" alt="Cypress Grove">
+                <div class="photographs-row">
+                    <div class="photographs-item">
+                        <img src="Bees.JPG" alt="Bernal Bees">
+                    </div>
+                    <div class="photographs-item">
+                        <img src="Midpine.JPG" alt="Midpine Street Sign">
+                    </div>
+                    <div class="photographs-item">
+                        <img src="Seaport.JPG" alt="Seaport">
+                    </div>
+                    <div class="photographs-item">
+                        <img src="2Bridges.JPG" alt="2 Bridges NYC">
+                    </div>
                 </div>
-                <div class="photographs-item">
-                    <img src="GlenEllen.JPG" alt="Glen Ellen">
-                </div>
-                <div class="photographs-item">
-                   <img src="HowarthPark.JPG" alt="Howarth Park">
-                </div>
-                <div class="photographs-item">
-                    <img src="GuernevilleRR.JPG" alt="Russian River">
-                </div>
-            </div>
             </div>
         </div>
     </div>
