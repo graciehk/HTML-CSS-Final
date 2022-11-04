@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&display=swap" rel="stylesheet">
 <style>
-    #videos-row {
+    #videos-row, #accordion-row {
         display: flex;
         flex-direction:row;
         height: 30vh;
@@ -21,6 +21,18 @@
     }
     .video {
         border:none;
+    }
+    .accordion-outer {
+        width: 30vw;
+    }
+    .accordion-preview {
+
+    }
+    .accordion-panel {
+        display: none;
+    }
+    .accordion-button {
+        tetx-align: right;
     }
 </style>
 </head>
@@ -45,6 +57,18 @@
                 <iframe class="video" src="https://www.youtube.com/embed/PLvMiqq2YtI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <iframe class="video" src="https://www.youtube.com/embed/PLvMiqq2YtI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <iframe class="video" src="https://www.youtube.com/embed/PLvMiqq2YtI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="accordion-row">
+                <div class="accordion-outer">
+                    <h4>101 Coast</h4>
+                    <p class="accordion-preview">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                        <p class="accordion-panel">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                            <div class="accordion-button">
+                                more
+                            </div>
+                </div>
             </div>
         </div>
     </div>
